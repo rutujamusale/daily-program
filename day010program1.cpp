@@ -1,4 +1,4 @@
-[11:22 PM, 8/8/2020] ~~ Rutuja: 1. Write a program to print half pyramid using numbers.
+1. Write a program to print half pyramid using numbers.
 Sample output:
 
 1 
@@ -8,7 +8,7 @@ Sample output:
 1 2 3 4 5
 
 ----------------------------------------
-[11:22 PM, 8/8/2020] ~~ Rutuja: #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
