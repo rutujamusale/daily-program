@@ -1,14 +1,8 @@
-//  Write a program to check whether a number is negative, positive or zero.
+//Write a program to find maximum number between two numbers.
 #include <iostream>
 using namespace std;
-
-int main()
+void number(int num)
 {
-    int num;
-    cout<<"Enter the number is: ";
-    cin>>num;
-
-    cout<<endl;
     if(num>0)
     {
         cout<< num <<" is positive number.";
@@ -21,5 +15,16 @@ int main()
     {
         cout<< num <<" is zero number.";
     }
+}
+
+int main()
+{
+     int num;
+    cout<<"Enter the number is: ";
+    cin>>num;
+
+    cout<<endl;
+    number(num);
+
     return 0;
 }
